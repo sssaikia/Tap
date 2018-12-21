@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/windowback"
+    tools:context="clear.alan.com.tap.Game"
+    android:padding="10dp"
+    android:elevation="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:fontFamily="@font/luckiest_guy"
+                
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textSize="25sp"
+                android:id="@+id/text"
+                android:text="Ready"
+                android:background="@drawable/bar"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                ads:srcCompat="@drawable/life"
+                android:id="@+id/life3"
+                android:layout_height="30dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                ads:srcCompat="@drawable/life"
+                android:id="@+id/life2" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                ads:srcCompat="@drawable/life"
+                android:id="@+id/life1" />
+        </LinearLayout>
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:id="@+id/randomtext"
+            android:textAlignment="center"
+            android:textSize="33sp"
+            android:padding="12dp"
+            android:text="www"
+            android:gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/luckiest_guy"
+             />
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp">
+            <TextView
+                android:padding="5dp"
+                android:gravity="center|start"
+                android:layout_weight="1"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="score"
+                android:background="@drawable/bar"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/luckiest_guy"
+                 />
+            <TextView
+                android:background="@drawable/bar"
+                android:gravity="end|center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/hiscr"
+                android:text="qqqq"
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:fontFamily="@font/luckiest_guy"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:weightSum="3"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"
+                    android:text="blue"
+                    android:background="@drawable/btn"
+                    android:soundEffectsEnabled="false"
+                    android:fontFamily="@font/luckiest_guy"
+                    />
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4"
+                    android:text="yellow"
+                    android:background="@drawable/btn"
+                    android:soundEffectsEnabled="false"
+                    android:fontFamily="@font/luckiest_guy"
+                    />
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:text="purple"
+                    android:background="@drawable/btn"
+                    android:soundEffectsEnabled="false"
+                    android:fontFamily="@font/luckiest_guy"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:soundEffectsEnabled="false"
+                    android:text="green"
+                    android:id="@+id/button6"
+                    android:background="@drawable/btn"
+                    android:fontFamily="@font/luckiest_guy"
+                     />
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    android:text="red"
+                    android:background="@drawable/btn"
+                    android:soundEffectsEnabled="false"
+                    android:fontFamily="@font/luckiest_guy"
+                    />
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button5"
+                    android:text="PINK"
+                    android:fadingEdge="horizontal|vertical"
+                    android:background="@drawable/btn"
+                    android:soundEffectsEnabled="false"
+                    android:fontFamily="@font/luckiest_guy"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adView1"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

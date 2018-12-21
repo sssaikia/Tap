@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="coolTheme" parent="Theme.AppCompat.NoActionBar">
+                <item name="android:colorPrimary">@color/primary_material_dark</item>
+                <item name="android:colorPrimaryDark">@color/primary_dark_material_dark</item>
+                <item name="android:colorAccent">@color/accent_material_dark</item>
+                <item name="android:windowBackground">@color/transparent_background</item>
+                <item name="android:statusBarColor">@color/colorPrimary</item>
+                <item name="android:colorBackground">@color/colorPrimaryDark</item>
+                <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+                <item name="android:textSize">30sp</item>
+        </style>
+</resources>

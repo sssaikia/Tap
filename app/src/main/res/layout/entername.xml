@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+    android:padding="25dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/diagback"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textSize="19dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="Enter your name"
+            android:fontFamily="@font/luckiest_guy"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:textSize="19dp"
+            android:id="@+id/username"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:background="@drawable/bar"
+            android:layout_margin="7dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:hint="My name"
+            android:fontFamily="@font/luckiest_guy"
+            android:textStyle="bold" />
+        <Button
+            android:textSize="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveUsername"
+            android:background="@drawable/button"
+            android:text="save"
+            android:fontFamily="@font/luckiest_guy"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

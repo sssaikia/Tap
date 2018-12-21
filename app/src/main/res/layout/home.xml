@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/windowback"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:padding="18dp"
+        android:background="@drawable/diagback"
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="76dp"
+        app:srcCompat="@drawable/apnam" />
+
+    <Button
+        android:id="@+id/startgame"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/leaderboardhome"
+        android:layout_width="129dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/luckiest_guy"
+        android:padding="10dp"
+        android:text="Leaderboard" />
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/soundCheeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="Music"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
